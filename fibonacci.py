@@ -8,4 +8,5 @@ def fibo(n, k):
 		return 1
 	else:
 		return fibo(n - 1, k) + k * fibo(n - 2, k)
+
 print fibo(29, 2)
